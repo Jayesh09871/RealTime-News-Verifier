@@ -1,0 +1,49 @@
+timestamp_utc,request_id,final_label,verification_status,verification_confidence,num_claims,likely_true_count,unverified_count,contradicted_count,num_sources_searched,num_useful_sources,supporting_source_count,contradicting_source_count,input_type,source_domain,article_word_count,article_extraction_latency_ms,claim_extraction_latency_ms,search_latency_ms,verification_latency_ms,total_processing_time_ms,api_provider_used,error_status
+2026-09-12 16:30:17 UTC,req_3976bea0ee,REAL,LIKELY TRUE,0.99,2,2,0,0,6,6,6,0,manual,manual_entry,13,0.04,0.09,0.01,15.29,0.49,mock,None
+2026-09-12 16:30:28 UTC,req_9f24d17756,REAL,LIKELY TRUE,0.99,2,2,0,0,6,6,6,0,manual,manual_entry,13,0.04,0.08,0.01,15.23,0.41,mock,None
+2026-09-12 16:31:31 UTC,req_5d33945f67,FAKE,UNVERIFIED,0.81,3,1,2,0,22,4,4,0,manual,manual_entry,30,0.52,0.56,5598.45,19.34,5604.18,duckduckgo,None
+2026-09-12 16:31:35 UTC,req_0f4aee9ed1,FAKE,UNVERIFIED,0.78,2,1,1,0,15,2,2,0,manual,manual_entry,25,0.1,0.21,4203.96,15.87,4205.29,duckduckgo,None
+2026-09-12 16:31:39 UTC,req_60862188bb,FAKE,UNVERIFIED,0.71,2,0,2,0,13,0,0,0,manual,manual_entry,24,0.08,0.23,4385.6,16.52,4387.57,duckduckgo,None
+2026-09-12 16:32:07 UTC,req_514bcae5f5,FAKE,UNVERIFIED,0.83,2,1,1,0,15,5,5,0,manual,manual_entry,21,0.51,0.53,2170.77,18.18,2175.21,duckduckgo,None
+2026-09-12 16:32:42 UTC,req_69049f4cb9,REAL,LIKELY TRUE,0.99,2,2,0,0,6,6,6,0,manual,manual_entry,13,0.08,0.16,0.02,15.61,1.05,mock,None
+2026-09-12 16:32:49 UTC,req_687ac106f9,REAL,LIKELY TRUE,0.99,2,2,0,0,15,6,6,0,manual,manual_entry,21,0.52,0.54,2473.12,18.31,2477.78,duckduckgo,None
+2026-09-12 16:34:48 UTC,req_5ed9b3789a,REAL,LIKELY TRUE,0.85,5,2,3,0,36,4,4,0,url,www.bbc.com,2086,799.09,3.39,9664.04,20.52,10472.78,duckduckgo,None
+2026-09-12 16:49:29 UTC,req_4f59b91914,FAKE,UNVERIFIED,0.5,0,0,0,0,0,0,0,0,manual,manual_entry,13,0.04,0.0,0.0,0.0,0.76,mock,name 'os' is not defined
+2026-09-12 16:49:48 UTC,req_098e7f6413,REAL,LIKELY TRUE,0.99,2,2,0,0,6,6,6,0,manual,manual_entry,13,0.04,0.08,0.02,15.3,0.51,mock,None
+2026-09-12 16:50:23 UTC,req_b78933d51a,REAL,LIKELY TRUE,0.99,2,2,0,0,15,6,6,0,manual,manual_entry,21,0.55,0.55,3626.2,17.01,3629.52,duckduckgo,None
+2026-09-12 16:50:27 UTC,req_b095e69fd7,REAL,LIKELY TRUE,0.75,2,1,1,0,15,1,1,0,manual,manual_entry,15,0.08,0.2,4073.92,15.98,4075.35,duckduckgo,None
+2026-09-12 16:51:32 UTC,req_81b52d3477,REAL,LIKELY TRUE,0.95,1,1,0,0,5,4,4,0,manual,manual_entry,21,0.53,4816.95,6743.74,7707.13,19268.43,duckduckgo+gemini,None
+2026-09-12 16:51:45 UTC,req_7fbfcd2980,FAKE,CONTRADICTED,0.95,1,0,0,1,8,2,0,2,manual,manual_entry,21,0.12,3385.4,4739.56,5416.64,13541.82,duckduckgo+gemini,None
+2026-09-12 16:52:17 UTC,req_b90866f0ae,REAL,LIKELY TRUE,0.97,3,2,1,0,12,4,4,0,manual,manual_entry,13,0.07,6438.84,0.09,14457.59,20881.97,mock,None
+2026-09-12 16:55:00 UTC,req_94966e2b37,REAL,LIKELY TRUE,0.95,1,1,0,0,8,3,3,0,url,www.thehindu.com,414,490.79,4970.81,6959.14,7953.3,20374.13,duckduckgo+gemini,None
+2026-09-12 16:56:21 UTC,req_566803b22e,REAL,LIKELY TRUE,0.95,1,1,0,0,8,4,4,0,url,www.thehindu.com,414,476.1,10447.12,14625.97,16715.39,42264.72,duckduckgo+gemini,None
+2026-09-12 16:56:51 UTC,req_6a111bcd6a,REAL,LIKELY TRUE,0.95,1,1,0,0,8,3,3,0,url,www.thehindu.com,414,350.79,4572.46,6401.44,7315.93,18640.69,duckduckgo+gemini,None
+2026-09-12 16:58:01 UTC,req_0f3795467a,REAL,LIKELY TRUE,0.81,3,1,2,0,23,2,2,0,manual,manual_entry,31,0.1,558.82,8831.46,1572.67,26797.73,duckduckgo,None
+2026-09-12 17:00:15 UTC,req_ef4c5b6e52,REAL,LIKELY TRUE,0.81,3,1,2,0,23,2,2,0,manual,manual_entry,31,0.52,900.45,5698.6,1610.36,10293.17,duckduckgo,None
+2026-09-12 17:02:12 UTC,req_239ec01104,FAKE,CONTRADICTED,0.98,1,0,0,1,8,2,0,2,manual,manual_entry,31,0.53,4902.55,6863.57,7844.08,19610.9,duckduckgo+gemini,None
+2026-09-12 17:02:28 UTC,req_babfbe6dcf,REAL,LIKELY TRUE,0.98,1,1,0,0,5,3,3,0,manual,manual_entry,21,0.38,3933.56,5506.99,6293.7,15734.82,duckduckgo+gemini,None
+2026-09-12 17:02:55 UTC,req_f02d0b12b4,FAKE,UNVERIFIED,0.95,1,0,1,0,8,3,0,0,manual,manual_entry,32,0.53,5101.31,7141.84,8162.1,20405.85,duckduckgo+gemini,None
+2026-09-12 17:03:17 UTC,req_35be24951e,REAL,LIKELY TRUE,0.97,3,2,1,0,10,6,6,0,manual,manual_entry,13,0.07,4540.51,0.05,9709.34,14235.36,mock,None
+2026-09-12 17:04:30 UTC,req_e15cc67750,FAKE,CONTRADICTED,0.98,1,0,0,1,8,2,0,2,manual,manual_entry,20,0.51,5756.59,8059.23,9210.54,23026.94,duckduckgo+gemini,None
+2026-09-12 17:04:53 UTC,req_93dbb833b7,FAKE,CONTRADICTED,0.98,1,0,0,1,8,2,0,2,manual,manual_entry,20,0.51,3106.5,4349.1,4970.4,12426.55,duckduckgo+gemini,None
+2026-09-12 17:05:31 UTC,req_e58f59f73d,REAL,LIKELY TRUE,0.98,1,1,0,0,5,3,3,0,manual,manual_entry,31,0.51,6828.67,9560.14,10925.87,27315.21,duckduckgo+gemini,None
+2026-09-12 17:05:56 UTC,req_522c2db216,REAL,LIKELY TRUE,0.99,2,2,0,0,6,6,6,0,manual,manual_entry,13,0.07,2026.5,0.29,6005.31,8017.78,mock,None
+2026-09-12 17:07:07 UTC,req_230b7ab3a4,FAKE,CONTRADICTED,0.98,1,0,0,1,8,3,0,3,manual,manual_entry,31,1.59,4381.99,6134.79,7011.18,17529.64,duckduckgo+gemini,None
+2026-09-12 17:08:25 UTC,req_d886dfb433,FAKE,CONTRADICTED,0.98,1,0,0,1,8,2,0,2,manual,manual_entry,20,0.52,3629.36,5081.1,5806.98,14518.03,duckduckgo+gemini,None
+2026-09-12 17:09:28 UTC,req_4b870bc66f,FAKE,CONTRADICTED,0.98,1,0,0,1,8,2,0,2,manual,manual_entry,17,0.51,3189.29,4465.01,5102.86,12757.75,duckduckgo+gemini,None
+2026-09-12 17:09:42 UTC,req_87ced5386e,REAL,LIKELY TRUE,0.98,1,1,0,0,5,3,3,0,manual,manual_entry,19,0.1,3416.18,4782.65,5465.88,13664.91,duckduckgo+gemini,None
+2026-09-12 17:10:32 UTC,req_7560154358,FAKE,CONTRADICTED,0.98,1,0,0,1,8,2,0,2,manual,manual_entry,31,1.67,2767.1,3873.94,4427.36,11070.12,duckduckgo+gemini,None
+2026-09-12 17:10:56 UTC,req_f3b9ecf832,REAL,LIKELY TRUE,0.96,1,1,0,0,5,3,3,0,manual,manual_entry,31,0.11,2070.09,2898.12,3312.14,8280.56,duckduckgo+gemini,None
+2026-09-12 17:11:24 UTC,req_6b51ad094d,REAL,LIKELY TRUE,0.95,1,1,0,0,7,3,3,0,url,www.thehindu.com,414,484.35,1964.57,2750.4,3143.31,8342.68,duckduckgo+gemini,None
+2026-09-12 17:17:45 UTC,req_ea332eafa3,FAKE,CONTRADICTED,0.95,1,0,0,1,10,3,0,3,manual,manual_entry,17,0.5,1017.24,1424.14,1627.58,4069.51,duckduckgo+gemini,None
+2026-09-12 17:17:54 UTC,req_76b13a2079,REAL,LIKELY TRUE,0.98,1,1,0,0,11,3,3,0,manual,manual_entry,19,0.11,2254.7,3156.58,3607.52,9018.99,duckduckgo+gemini,None
+2026-09-12 17:18:09 UTC,req_f2fa0d4419,REAL,LIKELY TRUE,0.94,2,1,1,0,8,2,2,0,manual,manual_entry,13,0.12,1112.73,0.04,4010.39,5108.54,mock,None
+2026-09-14 12:13:17 UTC,req_0db826af57,FAKE,UNVERIFIED,0.95,1,0,1,0,9,3,0,0,manual,manual_entry,32,0.83,1845.4,2583.56,2952.64,7382.51,duckduckgo+gemini,None
+2026-09-14 12:14:25 UTC,req_c00c08d165,REAL,LIKELY TRUE,0.94,2,1,1,0,8,2,2,0,manual,manual_entry,13,0.07,1094.82,0.04,3103.98,4184.18,mock,None
+2026-09-14 12:16:46 UTC,req_e9f0f5396b,REAL,LIKELY TRUE,0.94,2,1,1,0,8,3,3,0,manual,manual_entry,13,0.08,1499.31,0.05,4939.4,6424.23,mock,None
+2026-09-14 12:19:54 UTC,req_399f059d1d,REAL,LIKELY TRUE,0.94,2,1,1,0,8,3,3,0,manual,manual_entry,13,0.06,1556.48,0.04,3763.01,5304.89,mock,None
+2026-09-14 12:22:37 UTC,req_16c83795be,REAL,LIKELY TRUE,0.94,2,1,1,0,8,2,2,0,manual,manual_entry,13,0.08,1106.77,0.04,3439.27,4531.44,mock,None
+2026-09-14 12:24:52 UTC,req_940166f0ab,REAL,LIKELY TRUE,0.94,2,1,1,0,8,2,2,0,manual,manual_entry,13,0.07,1522.67,0.05,3229.52,4737.7,mock,None
+2026-09-14 12:26:49 UTC,req_e158d9b0fa,FAKE,CONTRADICTED,0.95,1,0,0,1,9,3,0,3,manual,manual_entry,31,1.74,1862.9,2608.06,2980.64,7453.41,duckduckgo+gemini,None
+2026-09-14 12:28:57 UTC,req_1a243f25fd,REAL,LIKELY TRUE,0.94,2,1,1,0,8,2,2,0,manual,manual_entry,13,0.04,1039.13,0.03,3026.58,4050.98,mock,None
+2026-09-14 12:42:48 UTC,req_850f4c14ad,REAL,LIKELY TRUE,0.94,2,1,1,0,8,3,3,0,manual,manual_entry,13,0.06,1288.55,0.04,3458.92,4732.81,mock,None
